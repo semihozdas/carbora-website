@@ -1,10 +1,23 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import { Leaf, Scan, Recycle, Coins, Trophy, Target, Users, Shield, Cpu, CheckCircle, ChevronRight, Mail, Phone, MapPin, Zap, Star, Award, Briefcase, Globe2, ArrowRight, Activity } from 'lucide-react';
+import Globe from '../components/ui/Globe';
 
 const scrollToId = (id) => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
 
 const Home = () => {
   const [scrollPct, setScrollPct] = useState(0);
+  const videoRef = useRef(null);
+
+  // Video otomatik oynatma
+  useEffect(() => {
+    const v = videoRef.current;
+    if (v) {
+      v.play().catch(() => {});
+      const handleVisible = () => { if (!document.hidden && v.paused) v.play().catch(() => {}); };
+      document.addEventListener('visibilitychange', handleVisible);
+      return () => document.removeEventListener('visibilitychange', handleVisible);
+    }
+  }, []);
 
   useEffect(() => {
     const onScroll = () => {
@@ -63,10 +76,15 @@ const Home = () => {
           ))}
         </div>
 
+        {/* ── Globe (fixed) ── */}
+        <div style={{ position:'fixed', zIndex:2, pointerEvents:'none', left:'75vw', top:'45vh', transform:'translate(-50%,-50%) scale(1.3)', opacity:.7, transition:'opacity .6s ease' }}>
+          <Globe size={280} glowColor="#00FF87" />
+        </div>
+
         {/* ═══ HERO ═══ */}
         <section id="hero" style={{ position:'relative', minHeight:'100vh', display:'flex', flexDirection:'column', justifyContent:'center', overflow:'hidden' }}>
           <div style={{ position:'absolute', inset:0, overflow:'hidden' }}>
-            <video autoPlay loop muted playsInline preload="metadata" style={{ position:'absolute', inset:0, width:'100%', height:'100%', objectFit:'cover' }}>
+            <video ref={videoRef} autoPlay loop muted playsInline preload="auto" style={{ position:'absolute', inset:0, width:'100%', height:'100%', objectFit:'cover' }}>
               <source src="https://videos.pexels.com/video-files/3571264/3571264-uhd_2560_1440_30fps.mp4" type="video/mp4" />
             </video>
             <div style={{ position:'absolute', inset:0, background:'linear-gradient(180deg,#060B14cc 0%,#060B14a0 45%,#060B1499 60%,#060B14f0 100%)' }} />
