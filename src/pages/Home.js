@@ -6,7 +6,24 @@ const scrollToId = (id) => document.getElementById(id)?.scrollIntoView({ behavio
 
 const Home = () => {
   const [scrollPct, setScrollPct] = useState(0);
+  const [globeTf, setGlobeTf] = useState('');
+  const [globeVisible, setGlobeVis] = useState(true);
   const videoRef = useRef(null);
+  const sectionRefs = useRef([]);
+  const raf = useRef(null);
+
+  // Her section için Globe pozisyonu: { left(vw), top(vh), scale }
+  const GLOBE_POS = [
+    { top:50, left:80, scale:1.25 },  // hero
+    { top:50, left:50, scale:1.7  },  // hakkimizda
+    { top:40, left:20, scale:1.1  },  // neden
+    { top:28, left:80, scale:0.95 },  // nasil
+    { top:50, left:15, scale:1.35 },  // rekabet
+    { top:55, left:50, scale:1.6  },  // misyon
+    { top:35, left:75, scale:1.0  },  // teknik
+    { top:60, left:30, scale:1.4  },  // ismodeli
+    { top:50, left:50, scale:1.9  },  // iletisim
+  ];
 
   // Video otomatik oynatma
   useEffect(() => {
@@ -19,15 +36,49 @@ const Home = () => {
     }
   }, []);
 
-  useEffect(() => {
-    const onScroll = () => {
+  // Scroll handler - Globe pozisyonunu ve progress bar'ı günceller
+  const onScroll = useCallback(() => {
+    if (raf.current) cancelAnimationFrame(raf.current);
+    raf.current = requestAnimationFrame(() => {
       const top = window.pageYOffset;
       const max = document.documentElement.scrollHeight - window.innerHeight;
       setScrollPct(Math.min(Math.max(top / (max || 1), 0), 1));
-    };
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
+
+      const mid = window.innerHeight / 2;
+      let best = 0, bestD = Infinity;
+      sectionRefs.current.forEach((el, i) => {
+        if (!el) return;
+        const r = el.getBoundingClientRect();
+        const d = Math.abs(r.top + r.height / 2 - mid);
+        if (d < bestD) { bestD = d; best = i; }
+      });
+      const p = GLOBE_POS[best] || GLOBE_POS[0];
+      setGlobeTf(`translate3d(${p.left}vw,${p.top}vh,0) translate3d(-50%,-50%,0) scale3d(${p.scale},${p.scale},1)`);
+    });
   }, []);
+
+  useEffect(() => {
+    const p0 = GLOBE_POS[0];
+    setGlobeTf(`translate3d(${p0.left}vw,${p0.top}vh,0) translate3d(-50%,-50%,0) scale3d(${p0.scale},${p0.scale},1)`);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    // Footer'a gelince Globe'u gizle
+    const footer = document.querySelector('footer');
+    let footerObs;
+    if (footer) {
+      footerObs = new IntersectionObserver(([entry]) => {
+        setGlobeVis(!entry.isIntersecting);
+      }, { threshold: 0.05 });
+      footerObs.observe(footer);
+    }
+
+    return () => {
+      window.removeEventListener('scroll', onScroll);
+      if (raf.current) cancelAnimationFrame(raf.current);
+      if (footerObs) footerObs.disconnect();
+    };
+  }, [onScroll]);
 
   const badge = (text, icon) => (
     <div style={{ display:'inline-flex', alignItems:'center', gap:8, padding:'5px 16px', border:'1px solid rgba(0,255,135,.25)', borderRadius:999, fontSize:11, fontWeight:700, letterSpacing:'.12em', textTransform:'uppercase', color:'#00FF87', background:'rgba(0,255,135,.08)', marginBottom:22 }}>
@@ -76,13 +127,19 @@ const Home = () => {
           ))}
         </div>
 
-        {/* ── Globe (fixed) ── */}
-        <div style={{ position:'fixed', zIndex:2, pointerEvents:'none', left:'75vw', top:'45vh', transform:'translate(-50%,-50%) scale(1.3)', opacity:.7, transition:'opacity .6s ease' }}>
+        {/* ── Globe (scroll-driven) ── */}
+        <div style={{
+          position:'fixed', zIndex:2, pointerEvents:'none',
+          transform: globeTf,
+          transition:'transform 1.3s cubic-bezier(.23,1,.32,1), opacity .6s ease',
+          willChange:'transform',
+          opacity: globeVisible ? .85 : 0,
+        }}>
           <Globe size={280} glowColor="#00FF87" />
         </div>
 
         {/* ═══ HERO ═══ */}
-        <section id="hero" style={{ position:'relative', minHeight:'100vh', display:'flex', flexDirection:'column', justifyContent:'center', overflow:'hidden' }}>
+        <section ref={el => sectionRefs.current[0] = el} id="hero" style={{ position:'relative', minHeight:'100vh', display:'flex', flexDirection:'column', justifyContent:'center', overflow:'hidden' }}>
           <div style={{ position:'absolute', inset:0, overflow:'hidden' }}>
             <video ref={videoRef} autoPlay loop muted playsInline preload="auto" style={{ position:'absolute', inset:0, width:'100%', height:'100%', objectFit:'cover' }}>
               <source src="https://videos.pexels.com/video-files/3571264/3571264-uhd_2560_1440_30fps.mp4" type="video/mp4" />
@@ -118,7 +175,7 @@ const Home = () => {
 
 
         {/* ═══ HAKKIMIZDA ═══ */}
-        <section id="hakkimizda" style={secStyle}>
+        <section ref={el => sectionRefs.current[1] = el} id="hakkimizda" style={secStyle}>
           <div style={wrap}>
             {badge('Hakkımızda Özeti', <Leaf size={11} />)}
             <h2 style={sTitle}>Biz <span style={{color:'#00FF87'}}>Kimiz?</span></h2>
@@ -142,7 +199,7 @@ const Home = () => {
         </section>
 
         {/* ═══ NEDEN CARBORA ═══ */}
-        <section id="neden" style={secStyle}>
+        <section ref={el => sectionRefs.current[2] = el} id="neden" style={secStyle}>
           <div style={wrap}>
             {badge('Farkındalık Hareketi', <Globe2 size={11} />)}
             <h2 style={sTitle}>Neden <span style={{color:'#00FF87'}}>Carbora?</span></h2>
@@ -164,7 +221,7 @@ const Home = () => {
         </section>
 
         {/* ═══ NASIL ÇALIŞIR ═══ */}
-        <section id="nasil" style={secStyle}>
+        <section ref={el => sectionRefs.current[3] = el} id="nasil" style={secStyle}>
           <div style={wrap}>
             {badge('3 Adımda Değişimi Başlat', <Zap size={11} />)}
             <h2 style={sTitle}>Nasıl <span style={{color:'#00FF87'}}>Çalışır?</span></h2>
@@ -191,7 +248,7 @@ const Home = () => {
 
 
         {/* ═══ REKABET AVANTAJLARI ═══ */}
-        <section id="rekabet" style={secStyle}>
+        <section ref={el => sectionRefs.current[4] = el} id="rekabet" style={secStyle}>
           <div style={wrap}>
             {badge('Rekabet Avantajlarımız', <Star size={11} />)}
             <h2 style={sTitle}>Neden <span style={{color:'#00FF87'}}>Carbora?</span></h2>
@@ -217,7 +274,7 @@ const Home = () => {
         </section>
 
         {/* ═══ MİSYON & VİZYON ═══ */}
-        <section id="misyon" style={secStyle}>
+        <section ref={el => sectionRefs.current[5] = el} id="misyon" style={secStyle}>
           <div style={wrap}>
             <div className="grid2">
               <div className="ccard" style={cardStyle({ background:'rgba(0,255,135,0.03)', borderColor:'rgba(0,255,135,0.2)' })}>
@@ -261,7 +318,7 @@ const Home = () => {
         </section>
 
         {/* ═══ TEKNİK DETAYLAR ═══ */}
-        <section id="teknik" style={secStyle}>
+        <section ref={el => sectionRefs.current[6] = el} id="teknik" style={secStyle}>
           <div style={wrap}>
             {badge('Teknik Detaylar', <Cpu size={11} />)}
             <h2 style={sTitle}>Rekabet <span style={{color:'#00FF87'}}>Avantajları</span></h2>
@@ -303,7 +360,7 @@ const Home = () => {
 
 
         {/* ═══ İŞ MODELİ & HEDEF PAZAR ═══ */}
-        <section id="ismodeli" style={secStyle}>
+        <section ref={el => sectionRefs.current[7] = el} id="ismodeli" style={secStyle}>
           <div style={wrap}>
             {badge('Girişim İş Modeli', <Briefcase size={11} />)}
             <h2 style={sTitle}>Carbora <span style={{color:'#00FF87'}}>İş Modeli</span></h2>
@@ -352,7 +409,7 @@ const Home = () => {
         </section>
 
         {/* ═══ İLETİŞİM ═══ */}
-        <section id="iletisim" style={{ ...secStyle, textAlign:'center' }}>
+        <section ref={el => sectionRefs.current[8] = el} id="iletisim" style={{ ...secStyle, textAlign:'center' }}>
           <div style={{ position:'absolute', left:'50%', top:'50%', transform:'translate(-50%,-50%)', width:520, height:520, borderRadius:'50%', background:'radial-gradient(circle,rgba(0,255,135,.08) 0%,transparent 68%)', pointerEvents:'none' }} />
 
           <div style={{ maxWidth:600, width:'100%', margin:'0 auto', position:'relative' }}>
