@@ -1,0 +1,60 @@
+GİZLİLİK POLİTİKASI VE AYDINLATMA METNİ
+Son Güncelleme: 26.01.2026
+Bu Gizlilik Politikası, [Carbora] (“Biz”, “Uygulama”) tarafından sunulan hizmetlerin kullanımı sırasında toplanan verilerin nasıl işlendiğini, saklandığını ve korunduğunu açıklamaktadır. Uygulamamızı kullanarak, bu politikada belirtilen şartları kabul etmiş sayılırsınız.
+1. Toplanan Veriler ve Toplanma Yöntemleri
+Uygulamamızın işlevlerini yerine getirebilmesi için aşağıdaki veriler toplanmaktadır:
+	•	Kimlik ve İletişim Bilgileri: Ad-soyad, e-posta adresi ve profil fotoğrafı (Kayıt ve profil oluşturma aşamasında).
+	•	Konum Bilgileri: "MapScreen" sayfasında size en yakın atık platformlarını gösterebilmek ve yol tarifi sunabilmek adına GPS üzerinden anlık konum veriniz.
+	•	Görsel Veriler: "ScanScreen" aşamasında atığın türünü ve hacmini görüntü işleme (image processing) ile tespit edebilmek amacıyla kameranız aracılığıyla çekilen fotoğraflar.
+	•	Uygulama İçi Etkinlik: Atılan atık türleri, miktarları, kazanılan puanlar, "EducationScreen" üzerindeki eğitim içeriklerinin tamamlanma durumu ve "Leaderboard" sıralamanız.
+2. Verilerin İşlenme Amaçları
+Toplanan veriler aşağıdaki amaçlar doğrultusunda işlenmektedir:
+	•	Kullanıcı hesabı oluşturmak ve yönetmek.
+	•	Görüntü işleme teknolojisi ile atık hacmini tahmin etmek ve karbon kazanım puanlarını hesaplamak.
+	•	En yakın atık toplama noktalarını harita üzerinde göstermek.
+	•	Liderlik tablosu (Leaderboard) üzerinden kullanıcılar arası rekabet ve motivasyonu sağlamak.
+	•	Büyük ölçekli şirketler (örn: karbon offsetleme yapan kurumlar) için anonimleştirilmiş karbon kredisi raporları oluşturmak.
+	•	Eğitim içerikleri aracılığıyla çevresel bilinci artırmak.
+3. Veri Paylaşımı ve Üçüncü Taraflar
+Verileriniz, kullanıcının açık rızası olmaksızın üçüncü kişilerle ticari amaçla paylaşılmaz. Ancak aşağıdaki durumlar istisnadır:
+	•	Hukuki Zorunluluk: Yasal merciler tarafından talep edilmesi durumunda mevzuata uygun olarak.
+	•	Karbon Kredisi Süreçleri: Şirketlerin karbon offsetleme yapabilmesi için sağlanan veriler anonimleştirilerek (kimlik bilgilerinizden arındırılarak) paylaşılabilecektir.
+	•	Ödül Partnerleri: İleride aktifleşebilecek kahve/yemek indirimleri gibi hakların tanımlanması için ilgili iş ortaklarıyla gerekli minimum veri paylaşımı yapılabilecektir.
+4. Sorumluluk Reddi (Liability Disclaimer)
+Uygulamayı kullanımınızla ilgili olarak aşağıdaki hususlarda sorumluluk kabul edilmemektedir:
+	•	Tahmin Dayalı Veriler: Görüntü işleme teknolojisi ile elde edilen gramaj, hacim ve karbon kazanım değerleri tahminidir. Bu verilerin bilimsel veya resmi bir kesinliği garanti edilmez; sadece teşvik ve farkındalık amaçlıdır.
+	•	Fiziksel Güvenlik: Atık platformlarına ulaşım ve atık atma işlemi sırasında oluşabilecek her türlü kişisel kaza, yaralanma veya üçüncü şahıs mülkiyetine verilen zararlardan kullanıcı bizzat sorumludur.
+	•	Karbon Kredisi Değeri: Kazanılan puanların maddi değeri, dönüştürülebilirliği ve geçerlilik süresi Uygulama yönetimi tarafından değiştirilebilir; bu konuda kazanılmış hak iddia edilemez.
+5. Veri Saklama ve Silme Hakları
+Verileriniz, üyeliğiniz devam ettiği sürece güvenli sunucularımızda saklanır. Hesabınızı sildiğiniz takdirde, yasal olarak saklanması zorunlu olmayan tüm kişisel verileriniz veri tabanımızdan kalıcı olarak silinir. KVKK kapsamındaki haklarınız (bilgi alma, düzeltme, silme) için infobilgisim@gmail.com üzerinden bizimle iletişime geçebilirsiniz.
+6. Çerezler ve Analiz
+Uygulama performansını ölçmek ve kullanıcı deneyimini iyileştirmek adına anonim kullanım istatistikleri toplanabilir.
+            
+
+CARBORA KULLANIM KOŞULLARI VE ÜYELİK SÖZLEŞMESİ
+Son Güncelleme: 26.01.2026
+1. TARAFLAR VE KABUL
+İşbu Kullanım Koşulları, Carbora mobil uygulamasını (“Uygulama”) indiren ve kullanan bireyler (“Kullanıcı”) ile Uygulama yönetimi/sahipleri (“Yönetim”) arasında akdedilmiştir. Uygulamayı kullanmaya başladığınız andan itibaren bu koşulların tamamını kabul etmiş sayılırsınız.
+2. HİZMETİN AMACI VE KAPSAMI
+Carbora, döngüsel ekonomiye destek sağlamak ve karbon ayak izi farkındalığı yaratmak amacıyla oluşturulmuş bir sosyal sorumluluk projesidir. Uygulama; atık takibi, tahmini karbon kazanımı hesaplaması ve eğitici içerikler sunar.
+3. SORUMLULUK REDDİ (ÖNEMLİ)
+Uygulama, aşağıda belirtilen hususlarda hiçbir garanti, taahhüt veya söz vermez:
+	•	Veri Doğruluğu: Görüntü işleme teknolojisi ile yapılan gramaj, hacim ve karbon kazanımı hesaplamaları tamamen tahminidir. Bu verilerin bilimsel bir kesinliği yoktur. Kullanıcı, bu verileri resmi bir belge veya kanıt olarak kullanamaz.
+	•	Puanların Maddi Değeri: Uygulama içinde toplanan puanların şu an için herhangi bir nakdi (para) karşılığı yoktur. Puanların gelecekte şirketlere satılması, indirim kartına dönüşmesi veya başka bir maddi değere sahip olması tamamen Yönetim’in takdirindedir. Yönetim, bu sistemi haber vermeksizin iptal edebilir veya değiştirebilir.
+	•	Hizmet Kesintisi: Uygulamanın kesintisiz çalışacağı, verilerin hiçbir zaman kaybolmayacağı veya teknik hatalar oluşmayacağı garanti edilmez.
+4. FİZİKSEL GÜVENLİK VE SAHA KULLANIMI
+	•	Kişisel Sorumluluk: Kullanıcıların atık toplama platformlarına ulaşımı, bu alanlarda bulunması ve atık atma işlemi sırasında yaşayabileceği her türlü bedensel yaralanma, kaza veya üçüncü şahıslara (belediye, şirket mülkiyeti vb.) verilebilecek zararlardan tamamen Kullanıcı sorumludur.
+	•	Platform Güvenliği: Atık ünitelerinin çevresindeki güvenlikten veya bu ünitelerin fiziksel durumundan Carbora sorumlu tutulamaz.
+5. KULLANICI YÜKÜMLÜLÜKLERİ
+	•	Doğru Bilgi: Kullanıcı, çöplerin fotoğrafını çekerken ve türünü seçerken dürüst davranacağını kabul eder. Hatalı veya yanıltıcı (atık olmayan nesnelerin çekilmesi vb.) veri girişi tespit edilen hesaplar önceden bildirim yapılmaksızın kapatılabilir ve puanları silinebilir.
+	•	Hesap Güvenliği: Kayıt sırasında verilen mail ve şifre bilgilerinin güvenliğinden kullanıcı sorumludur.
+6. FİKRİ MÜLKİYET HAKLARI
+Uygulamanın tasarımı, yazılımı, logoları, içerikleri (Video, PDF) ve "Carbora" markası üzerindeki tüm haklar Yönetim'e aittir. İzinsiz kopyalanması, çoğaltılması veya ticari amaçla kullanılması yasaktır.
+7. SÖZLEŞMENİN FESHİ VE DEĞİŞİKLİKLER
+	•	Yönetim Hakları: Yönetim, dilediği zaman Uygulamayı kapatma, hizmetleri durdurma veya bu sözleşmeyi tek taraflı olarak güncelleme hakkına sahiptir.
+	•	Hesap Silme: Kullanıcı dilediği zaman üyeliğini sonlandırabilir. Üyelik silindiğinde, yasal zorunluluklar dışındaki tüm veriler sistemden temizlenir (Gizlilik Politikası'na bakınız).
+8. TAAHHÜT YOKTUR
+Uygulama kapsamında bahsedilen "karbon kredisi satışı", "şirketlerin (örn: Büyük şirketler veya fabrikalar gibi kurumlar) karbon offsetleme yapması" veya "kahve/yemek ödülleri" gibi geleceğe dönük projeler birer niyet beyanıdır. Carbora, bu projelerin hayata geçeceğine dair hukuki bir taahhüt vermemektedir.
+9. YETKİLİ MAHKEME
+İşbu sözleşmeden doğabilecek uyuşmazlıklarda [Bulunduğun Şehir/Ankara/İstanbul] Mahkemeleri ve İcra Daireleri yetkilidir.
+

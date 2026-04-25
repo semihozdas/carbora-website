@@ -1,0 +1,822 @@
+{
+  "common": {
+    "live": "CANLI",
+    "cancel": "İptal",
+    "language": {
+      "tr": "TR",
+      "en": "EN"
+    }
+  },
+  "header": {
+    "nav": {
+      "home": "Ana Sayfa",
+      "marketplace": "Pazaryeri",
+      "about": "Hakkımızda",
+      "contact": "İletişim"
+    },
+    "auth": {
+      "login": "Giriş Yap",
+      "joinNow": "Şimdi Katıl"
+    },
+    "profileAlt": "Profil",
+    "user": {
+      "defaultName": "Kullanıcı",
+      "premium": "Premium Üye"
+    },
+    "dropdown": {
+      "dashboard": "Panelim",
+      "adminPanel": "Yönetici Paneli",
+      "profileSettings": "Profil Ayarları",
+      "logout": "Çıkış Yap"
+    }
+  },
+  "footer": {
+    "description": "Sürdürülebilir bir gelecek için teknoloji ve topluluk gücüyle çalışıyoruz.",
+    "columns": {
+      "platform": "Platform",
+      "corporate": "Kurumsal",
+      "legal": "Yasal"
+    },
+    "links": {
+      "home": "Ana Sayfa",
+      "marketplace": "Pazaryeri",
+      "about": "Hakkımızda",
+      "contact": "İletişim",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Şartları"
+    },
+    "copyrightSuffix": "Tüm hakları saklıdır."
+  },
+  "auth": {
+    "homeAria": "Anasayfaya dön",
+    "subtitle": "Geleceği dönüştürmek için bugün katıl.",
+    "overlay": {
+      "signInTitle": "Zaten hesabın var mı?",
+      "signInText": "Giriş yap ve kaldığın yerden devam et.",
+      "signUpTitle": "Aramıza katıl",
+      "signUpText": "Hesabını oluştur, Carbora deneyimine başla."
+    },
+    "tabs": {
+      "login": "Giriş Yap",
+      "register": "Kayıt Ol"
+    },
+    "fields": {
+      "email": "E-posta",
+      "password": "Şifre",
+      "name": "Ad",
+      "surname": "Soyad",
+      "passwordCreate": "Şifre Oluştur",
+      "passwordConfirm": "Şifre Onayı"
+    },
+    "placeholders": {
+      "email": "ornek@email.com",
+      "password": "******",
+      "name": "Adınız",
+      "surname": "Soyadınız"
+    },
+    "forgotPassword": "Şifremi Unuttum?",
+    "actions": {
+      "login": "Giriş Yap",
+      "loggingIn": "Giriş yapılıyor...",
+      "register": "Kayıt Ol",
+      "registering": "Kayıt olunuyor..."
+    },
+    "terms": {
+      "acceptPrefix": "",
+      "acceptSuffix": "'nı kabul ediyorum."
+    },
+    "success": {
+      "registeredPleaseLogin": "Kayıt başarılı! Lütfen giriş yapınız."
+    },
+    "errors": {
+      "loginFailed": "Giriş yapılırken bir hata oluştu",
+      "passwordsMismatch": "Şifreler eşleşmiyor.",
+      "passwordMin": "Şifre en az {{count}} karakter olmalıdır.",
+      "nameMin": "İsim en az {{count}} karakter olmalıdır.",
+      "nameLettersOnly": "İsim sadece harf içermelidir (Rakam veya sembol kullanılamaz).",
+      "surnameMin": "Soyisim en az {{count}} karakter olmalıdır.",
+      "surnameLettersOnly": "Soyisim sadece harf içermelidir.",
+      "termsRequired": "Kullanım koşullarını kabul etmelisiniz.",
+      "registerFailed": "Kayıt olurken bir hata oluştu"
+    }
+  },
+  "about": {
+    "badge": "Bilgisim Bilişim Sistemleri",
+    "heroTitle": "Biz Kimiz?",
+    "heroDescription": {
+      "part1": " olarak, yazılım geliştirme ve bilişim altyapısı alanlarında çözüm ortaklarımızın ihtiyaçlarını güvenilir ve sürdürülebilir bir yaklaşımla karşılıyoruz.",
+      "part2": " ile çevre bilincini, teknoloji ve topluluk gücüyle günlük hayata taşıyoruz."
+    },
+    "mission": {
+      "kicker": "Hedefimiz",
+      "title": "Misyonumuz",
+      "description": "Teknolojik gelişmeleri yakından takip ederek, yerli ve güvenilir çözümler üretmek; çevre bilinci ve sürdürülebilirlik odağını toplumun her kesimine yayacak ürünler geliştirmek."
+    },
+    "vision": {
+      "kicker": "Geleceğimiz",
+      "title": "Vizyonumuz",
+      "description": "Çevresel farkındalığı bir zorunluluktan çıkarıp, ölçülebilir ve keyifli bir yaşam tarzına dönüştüren dijital deneyimler tasarlamak; ulusal ve uluslararası ölçekte etki üreten teknolojiler geliştirmek."
+    },
+    "why": {
+      "kicker": "Farkındalık Hareketi",
+      "titlePrefix": "Neden",
+      "description": "Carbora, Bilgisim’in kurumsal tecrübesiyle; geri dönüşüm, sürdürülebilirlik ve topluluk gücünü tek bir akışta birleştiren bir deneyim sunar.",
+      "items": {
+        "gamification": {
+          "title": "Oyunlaştırma",
+          "description": "Günlük çevre dostu alışkanlıkları görevler ve ödüllerle sürdürülebilir bir rutine dönüştürüyoruz."
+        },
+        "realImpact": {
+          "title": "Gerçek Etki",
+          "description": "Dijital aksiyonların fiziksel dünyadaki karşılığını görünür kılan ölçümleme ve takip deneyimi sunuyoruz."
+        },
+        "communityPower": {
+          "title": "Topluluk Gücü",
+          "description": "Benzer hedeflere sahip kullanıcılarla birlikte öğrenin, yarışın ve kolektif etkiyi büyütün."
+        }
+      }
+    },
+    "imageAria": "Doğayı temsil eden yaprak görseli",
+    "liveData": "Canlı Veri",
+    "liveStats": {
+      "totalCarbon": "Toplam Dönüşüm",
+      "activeUsers": "Aktif Kullanıcı"
+    },
+    "brandSection": {
+      "title": "Kurumsal Güvence, Yenilikçi Vizyon",
+      "description": {
+        "part1": "Carbora,",
+        "brand": "Bilgisim Teknolojileri",
+        "part2": "'nin bir markasıdır. Kurumsal tecrübemiz ve teknolojik altyapımızla sürdürülebilir projeler geliştiriyoruz."
+      },
+      "actions": {
+        "visitSite": "bilgisim.com.tr’yi Ziyaret Et",
+        "contactUs": "Bizimle İletişime Geçin"
+      }
+    },
+    "company": {
+      "name": "Bilgisim Teknolojileri",
+      "description": "Kurumsal tecrübemiz ve teknolojik altyapımızla sürdürülebilir projeler geliştiriyoruz."
+    },
+    "platform": {
+      "name": "Carbora Platformu",
+      "description": "Çevre bilincini teknoloji ve topluluk gücüyle günlük hayata taşıyan yenilikçi çözüm."
+    }
+  },
+  "marketplace": {
+    "hero": {
+      "title": {
+        "part1": "Karbon Ayak İzinizi",
+        "highlight": "Dengeleyin"
+      },
+      "description": "Geleceğe nefes olun. Öğrencilerin geri dönüşüm çabalarını destekleyin ve karbon nötr bir dünya için adım atın."
+    },
+    "pool": {
+      "title": "Toplam Kullanılabilir Karbon Kredisi",
+      "thisMonthOffset": "Bu ay {{amount}} kg CO2 başarıyla dengelendi."
+    },
+    "purchaseForm": {
+      "title": "Satın Alma Formu",
+      "unit": {
+        "kg": "Miktar (kg)",
+        "budget": "Bütçe ($)"
+      },
+      "offsetAmount": "Offset Miktarı",
+      "amountPlaceholder": "0",
+      "limits": {
+        "min": "Min: {{value}} kg",
+        "max": "Maks: {{value}} kg"
+      },
+      "buyCredits": "Kredileri Satın Al",
+      "secureInfo": "Güvenli ödeme ve anında sertifika teslimi."
+    },
+    "summary": {
+      "estimatedCost": "Tahmini Maliyet",
+      "supported": "Desteklenen",
+      "students": "{{count}} Öğrenci"
+    },
+    "certificate": {
+      "title": "Sertifika Önizlemesi",
+      "livePreview": "Canlı Önizleme",
+      "type": "Karbon Dengeleme Sertifikası",
+      "mainTitle": "Yeşil Gelecek",
+      "confirmation": "Bu sertifika ile onaylanmıştır ki:",
+      "recipientPlaceholder": "Şirket Adınız / İsminiz",
+      "successfullyOffset": "Başarıyla dengelemiştir:",
+      "dateLabel": "Tarih",
+      "idLabel": "ID"
+    },
+    "leaderboard": {
+      "title": "Etki Liderleri",
+      "tabs": {
+        "topSupporters": "En İyi Destekçiler",
+        "recentBuyers": "Son Alıcılar"
+      },
+      "table": {
+        "rank": "Sıralama",
+        "supporter": "Destekçi",
+        "sector": "Sektör",
+        "totalOffset": "Toplam Offset",
+        "date": "Tarih"
+      },
+      "types": {
+        "corporateMember": "Kurumsal Üye",
+        "individualSupporter": "Bireysel Destekçi"
+      },
+      "sectors": {
+        "technology": "Teknoloji",
+        "logistics": "Lojistik",
+        "construction": "İnşaat"
+      },
+      "times": {
+        "twoHoursAgo": "2 saat önce",
+        "yesterday": "Dün",
+        "threeDaysAgo": "3 gün önce",
+        "oneWeekAgo": "1 hafta önce"
+      }
+    }
+  },
+  "dashboard": {
+    "defaultName": "Öğrenci",
+    "header": {
+      "welcome": "Tekrar Hoş Geldin, {{name}} 👋",
+      "subtitle": "Bugün gezegen için harika bir gün!"
+    },
+    "actions": {
+      "downloadReport": "Raporu İndir",
+      "usePoints": "Puan Kullan"
+    },
+    "points": {
+      "currentPoints": "Mevcut Puanlar",
+      "description": "Harika gidiyorsun! Sıralamanı yükseltmek için geri dönüşüme devam et.",
+      "level": "Seviye {{level}}",
+      "toNextLevel": "Bir sonraki seviyeye {{remaining}} puan kaldı."
+    },
+    "stats": {
+      "totalBadge": "Toplam",
+      "carbonReduction": "Karbon Azaltımı",
+      "kgCo2": "kg CO2",
+      "globalBadge": "Genel",
+      "globalRank": "Küresel Sıralama",
+      "leader": "Lider"
+    },
+    "activities": {
+      "title": "Son Aktiviteler",
+      "viewAll": "Tümünü Gör",
+      "table": {
+        "date": "Tarih",
+        "wasteType": "Atık Türü",
+        "status": "Durum",
+        "points": "Puan"
+      },
+      "empty": "Henüz bir geri dönüşüm aktiviten yok. Hadi başlayalım! 🌱"
+    }
+  },
+  "profile": {
+    "title": "Profil Ayarları",
+    "subtitle": "Hesap bilgilerinizi ve güvenlik tercihlerinizi buradan yönetebilirsiniz.",
+    "fields": {
+      "name": "Ad",
+      "surname": "Soyad",
+      "email": "E-posta"
+    },
+    "actions": {
+      "saveChanges": "Değişiklikleri Kaydet",
+      "saving": "Kaydediliyor...",
+      "updatePassword": "Şifreyi Güncelle",
+      "updating": "Güncelleniyor..."
+    },
+    "personal": {
+      "title": "Kişisel Bilgiler",
+      "profileAlt": "Profil",
+      "uploadPhoto": "Fotoğraf Yükle",
+      "uploadHint": "Önerilen boyut: 400x400px (JPG, PNG)"
+    },
+    "security": {
+      "title": "Güvenlik",
+      "currentPassword": "Mevcut Şifre",
+      "newPassword": "Yeni Şifre",
+      "newPasswordConfirm": "Yeni Şifre Onay",
+      "passwordHint": "Şifreniz en az 8 karakter uzunluğunda olmalı, büyük/küçük harf ve rakam içermelidir.",
+      "dangerZoneTitle": "Tehlikeli İşlem",
+      "deleteAccount": "Hesabımı Sil",
+      "deleteAccountHint": "Bu işlem kalıcıdır ve geri alınamaz.",
+      "deleteAccountConfirm": "Hesabını silmek istediğine emin misin?\n\nBu işlem kalıcıdır ve geri alınamaz."
+    },
+    "messages": {
+      "profileUpdated": "Profil başarıyla güncellendi!",
+      "profileUpdateFailed": "Profil güncellenirken hata oluştu",
+      "passwordsMismatch": "Yeni şifreler eşleşmiyor",
+      "passwordMin": "Şifre en az {{count}} karakter olmalıdır",
+      "passwordUpdated": "Şifre başarıyla güncellendi!",
+      "passwordUpdateFailed": "Şifre güncellenirken hata oluştu",
+      "accountDeleteFailed": "Hesap silme işlemi sırasında hata oluştu"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": {
+        "part1": "Bizimle",
+        "highlight": "İletişime Geçin"
+      },
+      "description": "SS Congress olarak sizlere dış ticaret ve danışmanlık alanında en iyi hizmeti sunmak için buradayız. Sorularınız, iş birlikleri veya talepleriniz için bizimle iletişime geçmekten çekinmeyin.",
+      "actions": {
+        "startNow": "Hemen Başla",
+        "exploreBilgisim": "SS Congress'i İncele"
+      }
+    },
+    "cards": {
+      "headquarters": "Genel Merkez",
+      "getDirections": "Yol tarifi al",
+      "contact": "İletişim",
+      "socialMedia": "Sosyal Medya",
+      "followUs": "Bizi sosyal ağlarda takip edin.",
+      "labels": {
+        "gsm": "Gsm",
+        "email": "Email"
+      },
+      "srOnly": {
+        "website": "Website",
+        "social": "Sosyal"
+      }
+    },
+    "form": {
+      "title": "Bize Ulaşın",
+      "success": "Mesaj hazır! (UI)",
+      "fields": {
+        "name": "Adınız",
+        "surname": "Soyadınız",
+        "email": "E-posta Adresiniz",
+        "subject": "Konu",
+        "message": "Mesajınız"
+      },
+      "submit": "Mesaj Gönder"
+    },
+    "map": {
+      "openInMaps": "Haritalarda aç",
+      "directions": "Yol tarifi",
+      "badge": "SS Congress",
+      "iframeTitle": "SS Congress Konum"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Gizlilik Politikası"
+    },
+    "terms": {
+      "title": "Kullanım Şartları"
+    },
+    "readBeforeUse": "Uygulamayı kullanmadan önce lütfen okuyunuz."
+  },
+  "export": {
+    "button": "Dışa Aktar",
+    "noData": "Dışa aktarılacak veri bulunamadı.",
+    "sheetName": "Veriler"
+  },
+  "admin": {
+    "roles": {
+      "admin": "Admin",
+      "user": "Kullanıcı"
+    },
+    "common": {
+      "viewAll": "Tümünü Gör",
+      "filter": "Filtrele",
+      "loading": "Yükleniyor...",
+      "noRecords": "Kayıt bulunamadı.",
+      "name": "İsim",
+      "role": "Rol",
+      "status": "Durum",
+      "actions": "İşlemler",
+      "genericError": "İşlem sırasında bir hata oluştu.",
+      "unknownError": "Bilinmeyen hata",
+      "close": "Kapat"
+    },
+    "pagination": {
+      "perPage": "Sayfa başına:",
+      "range": "Toplam {{total}} kayıttan {{from}}-{{to}} arası",
+      "prev": "Önceki",
+      "next": "Sonraki",
+      "pageOf": "Sayfa {{page}} / {{totalPages}}"
+    },
+    "export": {
+      "id": "ID",
+      "name": "İsim",
+      "surname": "Soyisim",
+      "email": "E-posta",
+      "role": "Rol",
+      "points": "Puan",
+      "status": "Durum",
+      "createdDate": "Kayıt Tarihi"
+    },
+    "commonActions": {
+      "edit": "Düzenle",
+      "delete": "Sil",
+      "create": "Oluştur",
+      "save": "Kaydet"
+    },
+    "users": {
+      "searchPlaceholder": "Kullanıcı Ara...",
+      "newUser": "Yeni Kullanıcı",
+      "avatarAlt": "Avatar",
+      "filters": {
+        "allRoles": "Tüm Roller",
+        "allStatuses": "Tüm Durumlar"
+      },
+      "table": {
+        "profile": "Profil",
+        "email": "E-posta",
+        "createdDate": "Kayıt Tarihi",
+        "points": "Puan"
+      },
+      "actions": {
+        "view": "Görüntüle",
+        "edit": "Düzenle",
+        "deactivate": "Pasife Al"
+      },
+      "alerts": {
+        "created": "Kullanıcı başarıyla oluşturuldu.",
+        "updated": "Kullanıcı güncellendi.",
+        "deactivated": "Kullanıcı pasife alındı.",
+        "deleteFailed": "Silme işlemi başarısız: {{message}}"
+      },
+      "deleteConfirm": "\"{{name}}\" adlı kullanıcıyı pasife almak (silmek) istediğinize emin misiniz?"
+    },
+    "platforms": {
+      "searchPlaceholder": "Kod veya QR ara...",
+      "filters": {
+        "allLocations": "Tüm Konumlar",
+        "allStatuses": "Tüm Durumlar"
+      },
+      "newPlatform": "Yeni Platform",
+      "table": {
+        "code": "Kod",
+        "qr": "QR Verisi",
+        "location": "Konum",
+        "totalWeight": "Toplam Ağırlık"
+      },
+      "alerts": {
+        "created": "Platform başarıyla oluşturuldu.",
+        "updated": "Platform güncellendi.",
+        "deactivated": "Platform pasife alındı.",
+        "saveFailed": "İşlem sırasında bir hata oluştu: {{message}}",
+        "deleteFailed": "Silme işlemi başarısız."
+      },
+      "deleteConfirm": "\"{{code}}\" kodlu platformu pasife almak istediğinize emin misiniz?",
+      "export": {
+        "id": "ID",
+        "code": "Kod",
+        "qr": "QR Verisi",
+        "location": "Konum",
+        "totalWeightGram": "Toplam Ağırlık (g)",
+        "status": "Durum",
+        "createdDate": "Kayıt Tarihi"
+      }
+    },
+    "platformModal": {
+      "title": {
+        "create": "Yeni Platform Ekle",
+        "edit": "Platform Düzenle"
+      },
+      "fields": {
+        "location": "Bağlı Konum",
+        "code": "Platform Kodu",
+        "qr": "QR Verisi",
+        "status": "Durum"
+      },
+      "placeholders": {
+        "selectLocation": "Konum Seçiniz",
+        "code": "Örn: BIN-001",
+        "qr": "Örn: QR-IST-001"
+      }
+    },
+    "locationTypes": {
+      "university": "Üniversite",
+      "park": "Park",
+      "metro": "Metro",
+      "square": "Meydan",
+      "mall": "AVM",
+      "other": "Diğer"
+    },
+    "locations": {
+      "searchPlaceholder": "Konum adı veya adres ara...",
+      "filters": {
+        "allTypes": "Tüm Tipler",
+        "allStatuses": "Tüm Durumlar"
+      },
+      "newLocation": "Yeni Konum Ekle",
+      "table": {
+        "locationName": "Konum Adı",
+        "institution": "Kurum",
+        "type": "Tip",
+        "address": "Adres"
+      },
+      "alerts": {
+        "created": "Konum başarıyla oluşturuldu.",
+        "updated": "Konum güncellendi.",
+        "deactivated": "Konum pasife alındı.",
+        "deleteFailed": "Silme işlemi başarısız."
+      },
+      "deleteConfirm": "\"{{name}}\" konumunu pasife almak (silmek) istediğinize emin misiniz?",
+      "export": {
+        "id": "ID",
+        "name": "Ad",
+        "institution": "Kurum",
+        "type": "Tip",
+        "address": "Adres",
+        "lat": "Lat",
+        "lng": "Lng",
+        "status": "Durum"
+      }
+    },
+    "locationModal": {
+      "title": {
+        "create": "Yeni Konum Ekle",
+        "edit": "Konum Düzenle"
+      },
+      "fields": {
+        "institution": "Bağlı Kurum",
+        "type": "Konum Tipi",
+        "name": "Konum Adı",
+        "address": "Adres / Açıklama",
+        "lat": "Enlem (Lat)",
+        "lng": "Boylam (Lng)",
+        "status": "Durum"
+      },
+      "placeholders": {
+        "selectInstitution": "Kurum Seçiniz",
+        "name": "Örn: Kampüs Girişi",
+        "address": "Tam adres giriniz...",
+        "lat": "Örn: 41.0082",
+        "lng": "Örn: 28.9784"
+      },
+      "typeOptions": {
+        "metroStop": "Metro/Durak"
+      }
+    },
+    "institutionTypes": {
+      "uni": "Üniversite",
+      "mun": "Belediye",
+      "corp": "Özel Sektör",
+      "ngo": "STK",
+      "other": "Diğer"
+    },
+    "institutions": {
+      "searchPlaceholder": "Kurum ismi ile ara...",
+      "filters": {
+        "allTypes": "Tüm Tipler",
+        "allStatuses": "Tüm Durumlar"
+      },
+      "newInstitution": "Yeni Kurum",
+      "table": {
+        "name": "Kurum İsmi",
+        "type": "Kurum Tipi",
+        "location": "Konum"
+      },
+      "alerts": {
+        "created": "Kurum başarıyla oluşturuldu.",
+        "updated": "Kurum güncellendi.",
+        "deactivated": "Kurum pasife alındı.",
+        "deleteFailed": "Silme işlemi başarısız."
+      },
+      "deleteConfirm": "\"{{name}}\" kurumunu pasife almak istediğinize emin misiniz?",
+      "export": {
+        "id": "ID",
+        "name": "Kurum Adı",
+        "location": "Konum",
+        "type": "Tip",
+        "status": "Durum"
+      }
+    },
+    "institutionModal": {
+      "title": {
+        "create": "Yeni Kurum Ekle",
+        "edit": "Kurum Düzenle"
+      },
+      "fields": {
+        "name": "Kurum Adı",
+        "location": "Konum (Şehir/İlçe)",
+        "type": "Kurum Tipi",
+        "status": "Durum"
+      },
+      "placeholders": {
+        "name": "Örn: Boğaziçi Üniversitesi",
+        "location": "Örn: İstanbul, Türkiye"
+      }
+    },
+    "userModal": {
+      "title": {
+        "view": "Kullanıcı Detayı",
+        "edit": "Kullanıcı Düzenle",
+        "create": "Yeni Kullanıcı Oluştur"
+      },
+      "badges": {
+        "editing": "Düzenleniyor",
+        "new": "Yeni Kayıt"
+      },
+      "idLabel": "ID:",
+      "fields": {
+        "name": "İsim",
+        "surname": "Soyisim",
+        "email": "E-posta",
+        "password": "Şifre",
+        "role": "Rol",
+        "status": "Durum",
+        "points": "Puan"
+      },
+      "actions": {
+        "create": "Kullanıcıyı Oluştur",
+        "save": "Değişiklikleri Kaydet"
+      }
+    },
+    "dashboard": {
+      "stats": {
+        "totalUsers": "Toplam Kullanıcı",
+        "recycled": "Geri Dönüştürülen",
+        "pendingApprovals": "Bekleyen Onaylar",
+        "attention": "Dikkat",
+        "systemStatus": "Sistem Durumu"
+      },
+      "recentUsers": "Son Kullanıcılar",
+      "quickActions": "Hızlı İşlemler",
+      "actions": {
+        "uploadEducation": {
+          "title": "Eğitim İçeriği Yükle",
+          "desc": "Yeni video veya makale ile kütüphaneyi güncelleyin.",
+          "button": "İçerik Yükle"
+        },
+        "carbonReport": {
+          "title": "Karbon Raporu",
+          "desc": "Aylık karbon tasarrufu raporunu PDF olarak alın.",
+          "button": "Rapor Oluştur"
+        }
+      }
+    },
+    "nav": {
+      "overview": "Genel Bakış",
+      "users": "Kullanıcılar",
+      "institutions": "Kurumlar",
+      "locations": "Konumlar",
+      "platforms": "Platformlar"
+    },
+    "layout": {
+      "sidebarTitle": "Yönetim Paneli",
+      "adminAlt": "Admin",
+      "adminFallbackName": "Admin",
+      "systemAdmin": "Sistem Yöneticisi",
+      "exitAdmin": "Panelden Çık",
+      "consoleTitle": "Yönetim Konsolu",
+      "systemStatusLabel": "Sistem durumu:",
+      "searchPlaceholder": "Ara..."
+    },
+    "status": {
+      "active": "Aktif",
+      "passive": "Pasif"
+    },
+    "modals": {
+      "delete": {
+        "title": "Silme İşlemi",
+        "areYouSure": "Emin misiniz?",
+        "defaultMessage": "Bu işlemi gerçekleştirmek istediğinize emin misiniz? Bu işlem geri alınamaz.",
+        "confirm": "Evet, Sil"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "titleLine1": "Daha Yeşil Bir Gelecek İçin",
+      "typewriterWords": ["Geri Dönüştür.", "Doğayı Koru.", "Karbonu Azalt."],
+      "typewriterAria": "Geri dönüştür, doğayı koru, karbonu azalt",
+      "description": "Küresel geri dönüşüm hareketine katılın ve gezegenimizin geleceğini birlikte şekillendirelim.",
+      "buttons": {
+        "downloadNow": "Hemen İndir",
+        "vision": "Vizyonumuz"
+      },
+      "stats": {
+        "label": "Topluluk Etkisi",
+        "value": "Dünya Çapında +50k Ton Tasarruf"
+      }
+    },
+    "downloadModal": {
+      "ariaLabel": "Uygulama indirme seçenekleri",
+      "badge": "İNDİR",
+      "title": "Uygulamayı indir",
+      "subtitle": "Cihazına uygun mağazayı seç ve Carbora’e katıl.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store",
+      "close": "Kapat"
+    },
+    "impact": {
+      "sectionTitle": "Canlı Etki Paneli",
+      "infoAriaLabel": "Canlı Etki Paneli bilgilendirme",
+      "badge": "CANLI",
+      "infoTitle": "Gerçek zamanlı etki, tek bakışta",
+      "infoText": "Bu panel, sistemden gelen güncel verileri özetleyerek platformun toplam etkisini anlık olarak görünür kılar. Değerler düzenli aralıklarla yenilenir; topluluk büyüdükçe ve geri dönüşüm arttıkça sayılar da buna paralel değişir.",
+      "metricsTitle": "Gösterilen metrikler",
+      "metrics": {
+        "totalActiveUsers": "platformdaki aktif topluluk büyüklüğü.",
+        "totalActivePlatforms": "aktif platform / kiosk sayısı.",
+        "totalRecycledWeight": "sistem üzerinden toplanan ve ayrıştırılan toplam atık.",
+        "totalCo2Saved": "tüm atıklardan hesaplanan toplam CO₂ tasarrufu."
+      },
+      "timeline": {
+        "totalActiveUsers": {
+          "title": "Aktif Kullanıcı",
+          "content": "Sürdürülebilir bir gelecek için birlikte hareket eden topluluk."
+        },
+        "totalActivePlatforms": {
+          "title": "Aktif Platform",
+          "content": "Sisteme bağlı ve aktif çalışan platform sayısı."
+        },
+        "totalRecycledWeight": {
+          "title": "Toplam Dönüşüm",
+          "content": "Toplanan ve ayrıştırılan toplam atık miktarı."
+        },
+        "totalCo2Saved": {
+          "title": "Toplam CO₂ Tasarrufu",
+          "content": "Gezegenimiz için sağlanan toplam karbon tasarrufu."
+        }
+      }
+    },
+    "howItWorks": {
+      "sectionTitle": "Nasıl Çalışır?",
+      "sectionDescription": "Dünyayı kurtarmak hiç bu kadar kolay olmamıştı. Üç basit adımda döngüsel ekonominin bir parçası olun.",
+      "steps": {
+        "scan": {
+          "title": "1. Tara",
+          "description": "Uygulamayı açın ve geri dönüştürülebilir ürünün barkodunu veya QR kodunu tarayın."
+        },
+        "recycle": {
+          "title": "2. Geri Dönüştür",
+          "description": "Ürünü en yakın akıllı geri dönüşüm kutusuna atın ve işlemi doğrulayın."
+        },
+        "earn": {
+          "title": "3. Kazan",
+          "description": "Anında eko-puanlar kazanın ve marketimizde ödüllere dönüştürün."
+        }
+      }
+    },
+    "cta": {
+      "title": "Yeşil Devrime katılmaya hazır mısın?",
+      "description": "Bugün bir etki yaratmaya başla. Uygulamayı indir, ilk ürününü tara, rozetini kazan ve eko-cüzdanının büyümesini izle.",
+      "buttons": {
+        "startFree": "Başla",
+        "downloadApp": "Uygulamayı İndir"
+      }
+    }
+  }
+  ,
+  "timeline": {
+    "relatedNodes": "Bağlantılı Düğümler"
+  },
+  "contact": {
+    "hero": {
+      "badge": "BİZE ULAŞIN",
+      "title": {
+        "part1": "Sorularınız İçin",
+        "highlight": "Buradayız"
+      },
+      "description": "Projelerimiz hakkında bilgi almak veya iş birliği yapmak için bizimle iletişime geçebilirsiniz.",
+      "actions": {
+        "startNow": "Hemen Başla",
+        "exploreBilgisim": "Bilgisim'i Keşfet"
+      }
+    },
+    "cards": {
+      "headquarters": "Genel Merkez",
+      "getDirections": "Yol Tarifi Al",
+      "contact": "İletişim Bilgileri",
+      "labels": {
+        "gsm": "GSM",
+        "email": "E-POSTA"
+      },
+      "socialMedia": "Sosyal Medya",
+      "followUs": "Bizi takip ederek güncel gelişmelerden haberdar olun."
+    },
+    "form": {
+      "title": "MESAJ GÖNDER",
+      "subtitle": "Bize Mesaj Bırakın",
+      "description": "Aşağıdaki formu doldurarak bize her türlü görüş, öneri veya sorunuzu iletebilirsiniz. En kısa sürede size dönüş yapacağız.",
+      "fields": {
+        "name": "ADINIZ",
+        "surname": "SOYADINIZ",
+        "email": "E-POSTA ADRESİNİZ",
+        "subject": "KONU",
+        "message": "MESAJINIZ"
+      },
+      "placeholders": {
+        "name": "Adınızı giriniz",
+        "surname": "Soyadınızı giriniz",
+        "email": "E-posta adresinizi giriniz",
+        "subject": "Mesajınızın konusu",
+        "message": "Mesajınızı buraya yazınız..."
+      },
+      "submit": "Mesaj Gönder",
+      "sending": "Gönderiliyor...",
+      "success": "Mesajınız başarıyla iletildi. Teşekkür ederiz!",
+      "errors": {
+        "generic": "Mesaj gönderilirken bir hata oluştu. Lütfen tekrar deneyin."
+      }
+    }
+  }
+}
+

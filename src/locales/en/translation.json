@@ -1,0 +1,759 @@
+{
+  "common": {
+    "live": "LIVE",
+    "cancel": "Cancel",
+    "language": {
+      "tr": "TR",
+      "en": "EN"
+    }
+  },
+  "header": {
+    "nav": {
+      "home": "Home",
+      "marketplace": "Marketplace",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "auth": {
+      "login": "Log In",
+      "joinNow": "Join Now"
+    },
+    "profileAlt": "Profile",
+    "user": {
+      "defaultName": "User",
+      "premium": "Premium Member"
+    },
+    "dropdown": {
+      "dashboard": "My Dashboard",
+      "adminPanel": "Admin Panel",
+      "profileSettings": "Profile Settings",
+      "logout": "Log Out"
+    }
+  },
+  "footer": {
+    "description": "We work with technology and the power of community for a sustainable future.",
+    "columns": {
+      "platform": "Platform",
+      "corporate": "Company",
+      "legal": "Legal"
+    },
+    "links": {
+      "home": "Home",
+      "marketplace": "Marketplace",
+      "about": "About",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
+    },
+    "copyrightSuffix": "All rights reserved."
+  },
+  "auth": {
+    "homeAria": "Back to home",
+    "subtitle": "Join today to transform the future.",
+    "overlay": {
+      "signInTitle": "Already have an account?",
+      "signInText": "Log in and continue where you left off.",
+      "signUpTitle": "Join us",
+      "signUpText": "Create your account and start your Carbora journey."
+    },
+    "tabs": {
+      "login": "Log In",
+      "register": "Sign Up"
+    },
+    "fields": {
+      "email": "Email",
+      "password": "Password",
+      "name": "First name",
+      "surname": "Last name",
+      "passwordCreate": "Create Password",
+      "passwordConfirm": "Confirm Password"
+    },
+    "placeholders": {
+      "email": "example@email.com",
+      "password": "******",
+      "name": "Your first name",
+      "surname": "Your last name"
+    },
+    "forgotPassword": "Forgot password?",
+    "actions": {
+      "login": "Log In",
+      "loggingIn": "Logging in...",
+      "register": "Sign Up",
+      "registering": "Signing up..."
+    },
+    "terms": {
+      "acceptPrefix": "I agree to the ",
+      "acceptSuffix": "."
+    },
+    "success": {
+      "registeredPleaseLogin": "Registration successful! Please log in."
+    },
+    "errors": {
+      "loginFailed": "An error occurred while logging in",
+      "passwordsMismatch": "Passwords do not match.",
+      "passwordMin": "Password must be at least {{count}} characters.",
+      "nameMin": "First name must be at least {{count}} characters.",
+      "nameLettersOnly": "First name must contain only letters (no numbers or symbols).",
+      "surnameMin": "Last name must be at least {{count}} characters.",
+      "surnameLettersOnly": "Last name must contain only letters.",
+      "termsRequired": "You must accept the terms of use.",
+      "registerFailed": "An error occurred while signing up"
+    }
+  },
+  "about": {
+    "badge": "Bilgisim Information Systems",
+    "heroTitle": "Who Are We?",
+    "heroDescription": {
+      "part1": " delivers reliable and sustainable solutions in software development and IT infrastructure to meet our partners’ needs.",
+      "part2": " brings environmental awareness into everyday life through technology and the power of community."
+    },
+    "mission": {
+      "kicker": "Our Goal",
+      "title": "Our Mission",
+      "description": "To closely follow technological advances, produce local and reliable solutions, and develop products that spread environmental awareness and sustainability across society."
+    },
+    "vision": {
+      "kicker": "Our Future",
+      "title": "Our Vision",
+      "description": "To turn environmental awareness from an obligation into a measurable and enjoyable lifestyle by designing digital experiences and developing technologies that create impact nationally and internationally."
+    },
+    "why": {
+      "kicker": "Awareness Movement",
+      "titlePrefix": "Why",
+      "description": "Carbora, powered by Bilgisim’s corporate experience, offers an experience that unifies recycling, sustainability, and community strength in a single flow.",
+      "items": {
+        "gamification": {
+          "title": "Gamification",
+          "description": "We turn everyday eco-friendly habits into a sustainable routine through challenges and rewards."
+        },
+        "realImpact": {
+          "title": "Real Impact",
+          "description": "We provide measurement and tracking that make the real-world impact of digital actions visible."
+        },
+        "communityPower": {
+          "title": "Community Power",
+          "description": "Learn together with like-minded users, compete, and grow collective impact."
+        }
+      }
+    },
+    "imageAria": "Leaf image representing nature",
+    "liveData": "Live Data",
+    "liveStats": {
+      "totalCarbon": "Total Recycled",
+      "activeUsers": "Active Users"
+    },
+    "brandSection": {
+      "title": "Corporate Reliability, Innovative Vision",
+      "description": {
+        "part1": "Carbora is a brand of",
+        "brand": "Bilgisim Technologies",
+        "part2": ". With our corporate experience and technological infrastructure, we build sustainable projects."
+      },
+      "actions": {
+        "visitSite": "Visit bilgisim.com.tr",
+        "contactUs": "Contact Us"
+      }
+    }
+  },
+  "marketplace": {
+    "hero": {
+      "title": {
+        "part1": "Offset Your Carbon Footprint",
+        "highlight": "Today"
+      },
+      "description": "Be a breath of fresh air for the future. Support students’ recycling efforts and take a step toward a carbon-neutral world."
+    },
+    "pool": {
+      "title": "Total Available Carbon Credits",
+      "thisMonthOffset": "{{amount}} kg CO2 was successfully offset this month."
+    },
+    "purchaseForm": {
+      "title": "Purchase Form",
+      "unit": {
+        "kg": "Amount (kg)",
+        "budget": "Budget ($)"
+      },
+      "offsetAmount": "Offset Amount",
+      "amountPlaceholder": "0",
+      "limits": {
+        "min": "Min: {{value}} kg",
+        "max": "Max: {{value}} kg"
+      },
+      "buyCredits": "Buy Credits",
+      "secureInfo": "Secure payment and instant certificate delivery."
+    },
+    "summary": {
+      "estimatedCost": "Estimated Cost",
+      "supported": "Supported",
+      "students": "{{count}} Students"
+    },
+    "certificate": {
+      "title": "Certificate Preview",
+      "livePreview": "Live Preview",
+      "type": "Carbon Offset Certificate",
+      "mainTitle": "Green Future",
+      "confirmation": "This certificate confirms that:",
+      "recipientPlaceholder": "Your Company Name / Your Name",
+      "successfullyOffset": "Has successfully offset:",
+      "dateLabel": "Date",
+      "idLabel": "ID"
+    },
+    "leaderboard": {
+      "title": "Impact Leaders",
+      "tabs": {
+        "topSupporters": "Top Supporters",
+        "recentBuyers": "Recent Buyers"
+      },
+      "table": {
+        "rank": "Rank",
+        "supporter": "Supporter",
+        "sector": "Sector",
+        "totalOffset": "Total Offset",
+        "date": "Date"
+      },
+      "types": {
+        "corporateMember": "Corporate Member",
+        "individualSupporter": "Individual Supporter"
+      },
+      "sectors": {
+        "technology": "Technology",
+        "logistics": "Logistics",
+        "construction": "Construction"
+      },
+      "times": {
+        "twoHoursAgo": "2 hours ago",
+        "yesterday": "Yesterday",
+        "threeDaysAgo": "3 days ago",
+        "oneWeekAgo": "1 week ago"
+      }
+    }
+  },
+  "dashboard": {
+    "defaultName": "Student",
+    "header": {
+      "welcome": "Welcome back, {{name}} 👋",
+      "subtitle": "Today is a great day for the planet!"
+    },
+    "actions": {
+      "downloadReport": "Download Report",
+      "usePoints": "Use Points"
+    },
+    "points": {
+      "currentPoints": "Current Points",
+      "description": "You're doing great! Keep recycling to climb the leaderboard.",
+      "level": "Level {{level}}",
+      "toNextLevel": "{{remaining}} points to the next level."
+    },
+    "stats": {
+      "totalBadge": "Total",
+      "carbonReduction": "Carbon Reduction",
+      "kgCo2": "kg CO2",
+      "globalBadge": "Overall",
+      "globalRank": "Global Rank",
+      "leader": "Leader"
+    },
+    "activities": {
+      "title": "Recent Activities",
+      "viewAll": "View all",
+      "table": {
+        "date": "Date",
+        "wasteType": "Waste Type",
+        "status": "Status",
+        "points": "Points"
+      },
+      "empty": "You don't have any recycling activity yet. Let's get started! 🌱"
+    }
+  },
+  "profile": {
+    "title": "Profile Settings",
+    "subtitle": "Manage your account information and security preferences here.",
+    "fields": {
+      "name": "First name",
+      "surname": "Last name",
+      "email": "Email"
+    },
+    "actions": {
+      "saveChanges": "Save Changes",
+      "saving": "Saving...",
+      "updatePassword": "Update Password",
+      "updating": "Updating..."
+    },
+    "personal": {
+      "title": "Personal Information",
+      "profileAlt": "Profile",
+      "uploadPhoto": "Upload Photo",
+      "uploadHint": "Recommended size: 400x400px (JPG, PNG)"
+    },
+    "security": {
+      "title": "Security",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "newPasswordConfirm": "Confirm New Password",
+      "passwordHint": "Your password must be at least 8 characters and include uppercase/lowercase letters and a number.",
+      "dangerZoneTitle": "Danger Zone",
+      "deleteAccount": "Delete my account",
+      "deleteAccountHint": "This action is permanent and cannot be undone.",
+      "deleteAccountConfirm": "Are you sure you want to delete your account?\n\nThis action is permanent and cannot be undone."
+    },
+    "messages": {
+      "profileUpdated": "Profile updated successfully!",
+      "profileUpdateFailed": "An error occurred while updating the profile",
+      "passwordsMismatch": "New passwords do not match",
+      "passwordMin": "Password must be at least {{count}} characters",
+      "passwordUpdated": "Password updated successfully!",
+      "passwordUpdateFailed": "An error occurred while updating the password",
+      "accountDeleteFailed": "An error occurred while deleting the account"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": {
+        "part1": "Get in",
+        "highlight": "Touch"
+      },
+      "description": "As SS Congress, we are here to provide you with the best service in the field of foreign trade and consultancy. Do not hesitate to contact us for your questions, collaborations, or requests.",
+      "actions": {
+        "startNow": "Get Started",
+        "exploreBilgisim": "Explore SS Congress"
+      }
+    },
+    "cards": {
+      "headquarters": "Headquarters",
+      "getDirections": "Get directions",
+      "contact": "Contact",
+      "socialMedia": "Social Media",
+      "followUs": "Follow us on social networks.",
+      "labels": {
+        "gsm": "Phone",
+        "email": "Email"
+      },
+      "srOnly": {
+        "website": "Website",
+        "social": "Social"
+      }
+    },
+    "form": {
+      "title": "Contact Us",
+      "success": "Message ready! (UI)",
+      "fields": {
+        "name": "First name",
+        "surname": "Last name",
+        "email": "Your email address",
+        "subject": "Subject",
+        "message": "Your message"
+      },
+      "submit": "Send Message"
+    },
+    "map": {
+      "openInMaps": "Open in Maps",
+      "directions": "Directions",
+      "badge": "SS Congress",
+      "iframeTitle": "SS Congress Location"
+    }
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy"
+    },
+    "terms": {
+      "title": "Terms of Use"
+    },
+    "readBeforeUse": "Please read before using the app."
+  },
+  "export": {
+    "button": "Export",
+    "noData": "No data found to export.",
+    "sheetName": "Data"
+  },
+  "admin": {
+    "roles": {
+      "admin": "Admin",
+      "user": "User"
+    },
+    "common": {
+      "viewAll": "View all",
+      "filter": "Filter",
+      "loading": "Loading...",
+      "noRecords": "No records found.",
+      "name": "Name",
+      "role": "Role",
+      "status": "Status",
+      "actions": "Actions",
+      "genericError": "An error occurred during the operation.",
+      "unknownError": "Unknown error",
+      "close": "Close"
+    },
+    "pagination": {
+      "perPage": "Per page:",
+      "range": "Showing {{from}}-{{to}} of {{total}} records",
+      "prev": "Previous",
+      "next": "Next",
+      "pageOf": "Page {{page}} / {{totalPages}}"
+    },
+    "export": {
+      "id": "ID",
+      "name": "First name",
+      "surname": "Last name",
+      "email": "Email",
+      "role": "Role",
+      "points": "Points",
+      "status": "Status",
+      "createdDate": "Created date"
+    },
+    "commonActions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "create": "Create",
+      "save": "Save"
+    },
+    "users": {
+      "searchPlaceholder": "Search users...",
+      "newUser": "New User",
+      "avatarAlt": "Avatar",
+      "filters": {
+        "allRoles": "All roles",
+        "allStatuses": "All statuses"
+      },
+      "table": {
+        "profile": "Profile",
+        "email": "Email",
+        "createdDate": "Created date",
+        "points": "Points"
+      },
+      "actions": {
+        "view": "View",
+        "edit": "Edit",
+        "deactivate": "Deactivate"
+      },
+      "alerts": {
+        "created": "User created successfully.",
+        "updated": "User updated.",
+        "deactivated": "User deactivated.",
+        "deleteFailed": "Delete failed: {{message}}"
+      },
+      "deleteConfirm": "Are you sure you want to deactivate (delete) \"{{name}}\"?"
+    },
+    "platforms": {
+      "searchPlaceholder": "Search by code or QR...",
+      "filters": {
+        "allLocations": "All locations",
+        "allStatuses": "All statuses"
+      },
+      "newPlatform": "New Platform",
+      "table": {
+        "code": "Code",
+        "qr": "QR Data",
+        "location": "Location",
+        "totalWeight": "Total Weight"
+      },
+      "alerts": {
+        "created": "Platform created successfully.",
+        "updated": "Platform updated.",
+        "deactivated": "Platform deactivated.",
+        "saveFailed": "Operation failed: {{message}}",
+        "deleteFailed": "Delete failed."
+      },
+      "deleteConfirm": "Are you sure you want to deactivate the platform with code \"{{code}}\"?",
+      "export": {
+        "id": "ID",
+        "code": "Code",
+        "qr": "QR Data",
+        "location": "Location",
+        "totalWeightGram": "Total weight (g)",
+        "status": "Status",
+        "createdDate": "Created date"
+      }
+    },
+    "platformModal": {
+      "title": {
+        "create": "Add New Platform",
+        "edit": "Edit Platform"
+      },
+      "fields": {
+        "location": "Linked Location",
+        "code": "Platform Code",
+        "qr": "QR Data",
+        "status": "Status"
+      },
+      "placeholders": {
+        "selectLocation": "Select a location",
+        "code": "e.g., BIN-001",
+        "qr": "e.g., QR-IST-001"
+      }
+    },
+    "locationTypes": {
+      "university": "University",
+      "park": "Park",
+      "metro": "Metro",
+      "square": "Square",
+      "mall": "Mall",
+      "other": "Other"
+    },
+    "locations": {
+      "searchPlaceholder": "Search by location name or address...",
+      "filters": {
+        "allTypes": "All types",
+        "allStatuses": "All statuses"
+      },
+      "newLocation": "Add New Location",
+      "table": {
+        "locationName": "Location Name",
+        "institution": "Institution",
+        "type": "Type",
+        "address": "Address"
+      },
+      "alerts": {
+        "created": "Location created successfully.",
+        "updated": "Location updated.",
+        "deactivated": "Location deactivated.",
+        "deleteFailed": "Delete failed."
+      },
+      "deleteConfirm": "Are you sure you want to deactivate (delete) the location \"{{name}}\"?",
+      "export": {
+        "id": "ID",
+        "name": "Name",
+        "institution": "Institution",
+        "type": "Type",
+        "address": "Address",
+        "lat": "Lat",
+        "lng": "Lng",
+        "status": "Status"
+      }
+    },
+    "locationModal": {
+      "title": {
+        "create": "Add New Location",
+        "edit": "Edit Location"
+      },
+      "fields": {
+        "institution": "Linked Institution",
+        "type": "Location Type",
+        "name": "Location Name",
+        "address": "Address / Description",
+        "lat": "Latitude (Lat)",
+        "lng": "Longitude (Lng)",
+        "status": "Status"
+      },
+      "placeholders": {
+        "selectInstitution": "Select an institution",
+        "name": "e.g., Campus Entrance",
+        "address": "Enter the full address...",
+        "lat": "e.g., 41.0082",
+        "lng": "e.g., 28.9784"
+      },
+      "typeOptions": {
+        "metroStop": "Metro/Stop"
+      }
+    },
+    "institutionTypes": {
+      "uni": "University",
+      "mun": "Municipality",
+      "corp": "Private sector",
+      "ngo": "NGO",
+      "other": "Other"
+    },
+    "institutions": {
+      "searchPlaceholder": "Search by institution name...",
+      "filters": {
+        "allTypes": "All types",
+        "allStatuses": "All statuses"
+      },
+      "newInstitution": "New Institution",
+      "table": {
+        "name": "Institution Name",
+        "type": "Institution Type",
+        "location": "Location"
+      },
+      "alerts": {
+        "created": "Institution created successfully.",
+        "updated": "Institution updated.",
+        "deactivated": "Institution deactivated.",
+        "deleteFailed": "Delete failed."
+      },
+      "deleteConfirm": "Are you sure you want to deactivate the institution \"{{name}}\"?",
+      "export": {
+        "id": "ID",
+        "name": "Institution name",
+        "location": "Location",
+        "type": "Type",
+        "status": "Status"
+      }
+    },
+    "institutionModal": {
+      "title": {
+        "create": "Add New Institution",
+        "edit": "Edit Institution"
+      },
+      "fields": {
+        "name": "Institution Name",
+        "location": "Location (City/District)",
+        "type": "Institution Type",
+        "status": "Status"
+      },
+      "placeholders": {
+        "name": "e.g., Bogazici University",
+        "location": "e.g., Istanbul, Turkey"
+      }
+    },
+    "userModal": {
+      "title": {
+        "view": "User Details",
+        "edit": "Edit User",
+        "create": "Create New User"
+      },
+      "badges": {
+        "editing": "Editing",
+        "new": "New"
+      },
+      "idLabel": "ID:",
+      "fields": {
+        "name": "First name",
+        "surname": "Last name",
+        "email": "Email",
+        "password": "Password",
+        "role": "Role",
+        "status": "Status",
+        "points": "Points"
+      },
+      "actions": {
+        "create": "Create User",
+        "save": "Save Changes"
+      }
+    },
+    "dashboard": {
+      "stats": {
+        "totalUsers": "Total Users",
+        "recycled": "Recycled",
+        "pendingApprovals": "Pending Approvals",
+        "attention": "Attention",
+        "systemStatus": "System Status"
+      },
+      "recentUsers": "Recent Users",
+      "quickActions": "Quick Actions",
+      "actions": {
+        "uploadEducation": {
+          "title": "Upload Education Content",
+          "desc": "Update the library with a new video or article.",
+          "button": "Upload Content"
+        },
+        "carbonReport": {
+          "title": "Carbon Report",
+          "desc": "Download the monthly carbon savings report as PDF.",
+          "button": "Generate Report"
+        }
+      }
+    },
+    "nav": {
+      "overview": "Overview",
+      "users": "Users",
+      "institutions": "Institutions",
+      "locations": "Locations",
+      "platforms": "Platforms"
+    },
+    "layout": {
+      "sidebarTitle": "Admin Panel",
+      "adminAlt": "Admin",
+      "adminFallbackName": "Admin",
+      "systemAdmin": "System Administrator",
+      "exitAdmin": "Exit Admin",
+      "consoleTitle": "Admin Console",
+      "systemStatusLabel": "System status:",
+      "searchPlaceholder": "Search..."
+    },
+    "status": {
+      "active": "Active",
+      "passive": "Inactive"
+    },
+    "modals": {
+      "delete": {
+        "title": "Delete",
+        "areYouSure": "Are you sure?",
+        "defaultMessage": "Are you sure you want to perform this action? This action cannot be undone.",
+        "confirm": "Yes, delete"
+      }
+    }
+  },
+  "home": {
+    "hero": {
+      "titleLine1": "For a Greener Future",
+      "typewriterWords": ["Recycle.", "Protect Nature.", "Reduce Carbon."],
+      "typewriterAria": "Recycle, protect nature, reduce carbon",
+      "description": "Join the global recycling movement and shape the future of our planet together.",
+      "buttons": {
+        "downloadNow": "Download Now",
+        "vision": "Our Vision"
+      },
+      "stats": {
+        "label": "Community Impact",
+        "value": "Worldwide +50k Tons Saved"
+      }
+    },
+    "downloadModal": {
+      "ariaLabel": "App download options",
+      "badge": "DOWNLOAD",
+      "title": "Download the app",
+      "subtitle": "Choose the store for your device and join Carbora.",
+      "googlePlay": "Google Play",
+      "appStore": "App Store",
+      "close": "Close"
+    },
+    "impact": {
+      "sectionTitle": "Live Impact Dashboard",
+      "infoAriaLabel": "Live Impact Dashboard information",
+      "badge": "LIVE",
+      "infoTitle": "Real-time impact, at a glance",
+      "infoText": "This dashboard summarizes the latest data from the system and makes the platform’s total impact visible instantly. Values are refreshed at regular intervals; as the community grows and recycling increases, the numbers change accordingly.",
+      "metricsTitle": "Displayed metrics",
+      "metrics": {
+        "totalActiveUsers": "the size of the active community on the platform.",
+        "totalActivePlatforms": "the number of active platforms / kiosks.",
+        "totalRecycledWeight": "total waste collected and sorted through the system."
+      },
+      "timeline": {
+        "totalActiveUsers": {
+          "title": "Active Users",
+          "content": "A community moving together for a sustainable future."
+        },
+        "totalActivePlatforms": {
+          "title": "Active Platforms",
+          "content": "Number of platforms connected and actively running."
+        },
+        "totalRecycledWeight": {
+          "title": "Total Recycled",
+          "content": "Total amount of waste collected and sorted."
+        }
+      }
+    },
+    "howItWorks": {
+      "sectionTitle": "How It Works",
+      "sectionDescription": "Saving the world has never been this easy. Become part of the circular economy in three simple steps.",
+      "steps": {
+        "scan": {
+          "title": "1. Scan",
+          "description": "Open the app and scan the barcode or QR code of a recyclable product."
+        },
+        "recycle": {
+          "title": "2. Recycle",
+          "description": "Drop the item into the nearest smart recycling bin and confirm the action."
+        },
+        "earn": {
+          "title": "3. Earn",
+          "description": "Earn eco-points instantly and turn them into rewards in our marketplace."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to join the Green Revolution?",
+      "description": "Start making an impact today. Download the app, scan your first item, earn your badge, and watch your eco-wallet grow.",
+      "buttons": {
+        "startFree": "Start",
+        "downloadApp": "Download the App"
+      }
+    }
+  }
+  ,
+  "timeline": {
+    "relatedNodes": "Related Nodes"
+  }
+}
+
